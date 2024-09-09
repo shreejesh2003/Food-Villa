@@ -1,6 +1,6 @@
 import RestaurentCard from "./RestaurantCard"
 
-import {useState} from 'react'
+import {useState,useEffect} from 'react'
 
 
 
@@ -96,7 +96,13 @@ const Body=() => {
           costForTwo: "₹500 for two",
           imageUrl: "https://via.placeholder.com/150",
         }
-      ])
+      ]);
+
+      useEffect(() => {},[])
+        
+        
+
+
     return(
         <div className='body'>
 
