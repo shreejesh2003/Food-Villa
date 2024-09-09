@@ -13,3 +13,5 @@ if(listOfResturent.length===0){
 }
 
 why use useState()?
+
+Imp: Whenever state variable update, react triggers a reconciliation cycle(re-renders the component)
