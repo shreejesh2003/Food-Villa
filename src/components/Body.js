@@ -107,6 +107,8 @@ const Body=() => {
         <div className='body'>
 
             <div className='filter'>
+              <div><input type="text" className="serach-bar" />
+              <button className="search-btn">Search</button></div>
                 <button className="filter-btn" onClick={()=>{const filtered=restaurent.filter(res=>res.rating>4.5);
                 setRestaurent(filtered);
                 }}
