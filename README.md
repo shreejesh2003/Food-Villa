@@ -91,7 +91,7 @@ Navigate to differnt page without reloading the page:
 use link from react router dom
 import {Link} from 'react-router-dom'
 <Link to>
-Two types of routing in web apps
-Client-side routing
+#Two types of routing in web apps
+Client-side routing:Only components get changes no server calls 
 Server-side routing
 
