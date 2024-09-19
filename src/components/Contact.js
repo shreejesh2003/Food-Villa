@@ -1,7 +1,9 @@
+import User from "./User"
+import UserClass from "./UserClass"
 const Contact=() => {
     return(
         <div>
-            <h2>Contact Us</h2>
+            {/* <h2>Contact Us</h2>
             <form>
                 <label for="fname">First Name:</label><br/>
                 <input type="text" id="fname" name="fname" /><br/>
@@ -12,7 +14,14 @@ const Contact=() => {
                 <label for="message">Message:</label><br />
                 <textarea id="message" name="message" rows="4" cols="50"></textarea><br/>
                 <input type="submit" value="Submit" />
-            </form>
+            </form> */}
+            <div>
+                <User name={"shreejesh"}/>
+            </div>
+            <div>
+                <UserClass name={"shreejesh"}/>
+
+            </div>
         </div>
     )
 }
